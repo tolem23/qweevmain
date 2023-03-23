@@ -1,26 +1,34 @@
-<script setup>
+<script >
 // import { RouterLink, RouterView } from 'vue-router'
 import HomeView from './views/HomeView.vue'
+// import Intro from './views/Intro.vue'
+
+// import Button from './components/Button.vue'
+// import Input from './components/Input.vue'
+// import Header from './views/components/Header.vue'
+// import AboutUs from './views/components/AboutUs.vue'
+// import Contact from './views/components/ContactUs.vue'
+
+
+export default {
+  components:{HomeView},
+
+ 
+}
 </script>
 
 <template>
-  <header>
-    
-
-    <div class="wrapper">
-      <HomeView  />
-
-      <!-- <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav> -->
-    </div>
-  </header>
-
+  <div>
+    <Contact/>
+    <!-- <AboutUs/> -->
+    <HomeView/>
+  </div>
+    <!-- <Header/>   -->
+  
   <!-- <RouterView /> -->
 </template>
 
-<style scoped>
+<!-- <style scoped>
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -82,4 +90,4 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
-</style>
+</style> -->
