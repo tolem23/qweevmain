@@ -3,7 +3,7 @@
         <div
     :class="HomeView"
         class="home">
-    <Header headerClass="sticky"></Header>
+    <Header class=""></Header>
     <Intro/>
     </div>
     <div>
@@ -17,14 +17,14 @@
     </div>
     <div clss="pt-32">
         <h2>How it Works</h2>
-        <p class="font-normal text-base text-center">We understand how it is to navigate around here.<br> Let’s show your how it works in 4 easy steps.</p>
+        <p class="font-normal text-base lg:text-lg text-center">We understand how it is to navigate around here.<br> Let’s show your how it works in 4 easy steps.</p>
     </div>
     <div class="mt-20">
         <Works/>
     </div>
     <div  class="pt-10 clear-left mb-20">
-        <h2 class="text-2xl">Our Pricing Plan</h2>
-        <p class="font-normal text-center text-base fon-ubuntu">Our pricing plan covers for level of access to our platform</p>
+        <h2 class="">Our Pricing Plan</h2>
+        <p class="font-normal text-center text-base lg:text-lg">Our pricing plan covers for level of access to our platform</p>
     </div>
     <div class=" mb-20">
         <Pricing/>
@@ -35,7 +35,7 @@
     <div class="">
         <ContactUs/>
     </div>
-    <div>
+    <div class="mt-auto">
         <Footer/>
     </div>
     </div>

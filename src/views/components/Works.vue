@@ -1,5 +1,5 @@
 <template>
-    <div  class=" w-[75%] mx-auto" >
+    <div  class="w-[80%] sm:w-[90%] sm:grid sm:grid-cols-2 md:block md:w-[75%] lg:w-[64%] mx-auto" >
       <div class="" v-for="(card, i ) in cardDetails " :key="i">
         <Card :cardBg ="`${card.bg}`"
         :numberClass="`${card.border}`"

@@ -1,7 +1,7 @@
 <template>
-    <div :class="Intro" class="w-[80%] mx-auto mt-[4%] text-white ">
-        <h1 class="md:text-7xl">The trusted platform for perfect match</h1>
-        <p class="mt-[5%] md:w-[50%] md:text-xl text-white">
+    <div :class="Intro" class="mt-[10%] w-[80%] mx-auto  text-white ">
+        <h1 class="">The trusted platform <br class="hidden md:flex">for perfect match</h1>
+        <p class="mt-[5%] md:w-[50%] lg:w-[45%] md:text-xl text-white">
             Qweev’s clinically-sound, inclusive platform supports members 
             with personalized, holistic care for every step of their reproductive 
             and family health journey.
