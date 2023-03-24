@@ -5,7 +5,7 @@
     </div>
 
     
-    <div class=" w-[80%] sm:w-[50%]  mx-auto flex relative">
+    <div class=" w-[70%] sm:w-[50%]  mx-auto flex relative">
         <div class="my-10 ">
             <h2 class="md:text-start ">Have something to say?</h2>
             <h2 class="md:text-start text-xl pt-5 font-normal text[#625B71]">Reach out to us via this form.</h2>
@@ -35,7 +35,7 @@
             
 
         </div>
-      <img src="../../assets/img/question.png " class="absolute md:ml-96"> 
+      <img src="../../assets/img/question.png " class="absolute ml-96"> 
     </div>
   </div>
 </template>
