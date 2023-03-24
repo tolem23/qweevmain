@@ -2,8 +2,8 @@
     <head>
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
     </head>
-  <div class="header pt-7 " :class="Header">
-    <div class="sticky top md:w-[75%] bg-white w-[95%] mx-auto md:py-8  py-4  rounded-lg md:px-6  border  flex justify-between ">
+  <div class="header pt-7 " :class="headerClass">
+    <div class=" top md:w-[75%] bg-white w-[95%] mx-auto md:py-8  py-4  rounded-lg md:px-6  border  flex justify-between ">
         <div class="logo">
             <img src="../../assets/img/qweev-logo 1.png">
         </div>
