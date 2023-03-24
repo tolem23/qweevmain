@@ -9,7 +9,7 @@
     >
       <swiper-slide v-for="(item, i) in carousels" :key="i">
         <div
-          class="single-slide relative bg-no-repeat  bg-center rounded-md   mx-auto min-h-[400px]"
+          class="single-slide relative bg-no-repeat  bg-center rounded-md   mx-auto min-h-[400px] lg:min-h-[500px]"
           :style="{
             backgroundImage: 'url(' + item.img + ')',
           }"
@@ -17,8 +17,8 @@
           <div
             class="container absolute pt-20  incest-0 slider-content  min-h-[50px] rounded-md flex flex-col items-start justify-start  text-white"
           >
-            <div class="max-w-[300px] px-6 py-10 bg-[#6750A4]">
-              <h2 v-if="item.title" class="text-2xl mb-2 font-semibold text-white">
+            <div class="max-w-[300px] lg:max-w-[350px] px-6 py-10 lg:py-20 bg-[#6750A4]">
+              <h2 v-if="item.title" class="text-2xl text-start mb-2 font-semibold text-white">
                 {{ item.title }}
               </h2>
               <p v-if="item.description" class="text-base text-white ">
@@ -29,7 +29,7 @@
         </div>
         
       </swiper-slide>
-      <div class="swiper-pagination-bullet mt-10  "></div>
+      <div class="swiper-pagination-bullet mt-10 lg:mt-20  "></div>
       
     </swiper>
         
@@ -91,7 +91,7 @@
   .swiper-button-next:after,
   .swiper-button-prev:after {
     font-family: unset !important;
-    @apply  mt-[400px];
+    @apply mt-[400px] lg:mt-[550px] ;
   }
   .swiper-button-next:after {
     content: url("https://api.iconify.design/heroicons-outline/arrow-long-right.svg?color=#6750A4&width=24");
@@ -101,7 +101,7 @@
   }
   .swiper-pagination .swiper-pagination-bullet {
     height: 3px;
-    @apply rounded-[1px] bg-[#6750A4] bg-opacity-100 w-[100px] md:w-[260px] ;
+    @apply rounded-[1px] bg-[#6750A4] bg-opacity-100 w-[60px] sm:w-[100px] md:w-[260px] lg:w-[330px];
     &.swiper-pagination-bullet-active {
       @apply bg-[#6750A4]  ;
     }
