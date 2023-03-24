@@ -1,28 +1,29 @@
 <template>
-  <div class="contact  md:flex" :class="Contact">
-    <div class=" pt-[10%] bg-[#E8DEF8] md:w-[50%] md:h-[100vh]">
+  <div class="contact md:h-screen md:flex md:gap-20 incest-0" :class="Contact">
+    <div class=" pt-40 pl-20 bg-[#E8DEF8] md:w-[50%] ">
         <img src="../../assets/img/undraw_doctors_p6aq 1.png">
     </div>
 
     
-    <div class=" pt-[5%] md:w-[50%]  pb-[10%] flex relative">
-        <img class="w-20 mx-auto h-20" src="../../assets/img/question.png">
-        <div class="absolute md:ml-[20%] ml-10 mr-10">
-            <h1 class="font-semibold text-xl md:text-4xl">Have something to say?</h1>
-            <p class="md:text-xl md:pt-[10%] pt-[5%] font-semibold">Reach out to us via this form.</p>
+    <div class=" w-[80%] md:w-[50%]  mx-auto flex relative">
+        <div class="py-10">
+            <h2 class="md:text-start ">Have something to say?</h2>
+            <h2 class="md:text-start text-xl pt-5 font-normal ">Reach out to us via this form.</h2>
 
             <form class="" action="submit" >
-              <div  class="mt-10 grid gap-x-8 gap-y-4 md:gap-y-6 grid-cols-1 md:grid-cols-2">
+              <div  class="mt-3 grid gap-x-8 gap-y-4 md:gap-y-6 grid-cols-1 md:grid-cols-2">
                 <Input Label="First Name *"/>
                 <Input  Label="Last Name *"/>
                 <Input Label=" Job title *"/>
                 <Input Label="Phone number *"/>
               </div>
-              <Input class="md:mt-6 mt-4" Label="Work email *"/>
-              <Input class="md:mt-6 mt-4" Label="Company name *"/>
-              <Button class="md:mt-6 mt-4" msg="Submit"/>
+                 <Input class="md:mt-6 mt-3 " Label="Work email *"/>
+              <Input class="md:mt-6 mt-3" Label="Company name *"/>
+             
+              <Button buttonClass="md:mt-6 mt-4 " msg="Submit"/>
             </form>
         </div>
+      <img src="../../assets/img/question.png " class="absolute md:ml-96"> 
     </div>
   </div>
 </template>

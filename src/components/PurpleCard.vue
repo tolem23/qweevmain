@@ -1,12 +1,12 @@
 <template>
   
-    <div class="w-full max-w-[320px] p-4 bg-[#EADDFF] text-[#625B71] hover:bg-[#6750A4] hover:text-white border  rounded-lg sm:p-8 delay-150 ease-in-out hover:translate-y-2 hover:scale-110 duration-300 ">
+    <div class="container w-full max-w-[320px] p-4 bg-[#EADDFF] font-ubuntu text-[#625B71] hover:bg-[#6750A4] hover:text-white border transition  rounded-lg sm:p-8 delay-150 ease-in-out hover:translate-y-2 hover:scale-110 duration-300 ">
       <div class="mb-4 flex items-center py-6 gap-3">
         <img src="../assets/img/cardimg.png " class="p-2 bg-[#6750A4] rounded-lg" alt="" >
-        <h5 class=" text-3xl font-bold text-black hover:text-white ">{{title}}</h5>
+        <h2 class=" text-3xl font-bold hover:text-white font-ubuntu ">{{title}}</h2>
       </div>
         <div class="flex items-baseline ">
-            <span class="text-5xl font-bold text-black hover:text-white tracking-tight">{{amount}}</span>
+            <span class="text-5xl font-bold text-black hover:text-inherent tracking-tight">{{amount}}</span>
             <span class="ml-1 text-xl font-normal ">/access</span>
         </div>
         <!-- List -->
@@ -18,7 +18,7 @@
             </li>
             
           </ul>
-        <button type="button" class="text-white mt-3 bg-[#6750A4] hover:bg-white focus:ring-4 focus:outline-none  font-medium rounded-lg text-base px-5 py-5 inline-flex justify-center w-full text-center">Get Strated Now</button>
+        <button type="button" class="text-white hover:text-[#6750A4] mt-3 bg-[#6750A4] hover:bg-white focus:ring-4 focus:outline-none  font-medium rounded-lg text-base px-5 py-5 inline-flex justify-center w-full text-center">Get Started Now</button>
     </div>
 
 </template>
@@ -60,6 +60,8 @@ props:{
 }
 </script>
 
-<style>
-
+<style >
+  .container:hover{
+    color: white !important
+  }
 </style>

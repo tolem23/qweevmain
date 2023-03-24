@@ -1,5 +1,5 @@
 <template>
-  <div class="grid md:grid-cols-3" >
+  <div class="w-[60%] md:w-[80%] mx-auto grid md:grid-cols-3 gap-10" >
     <PurpleCard  />
     <PurpleCard  />
     <PurpleCard  />

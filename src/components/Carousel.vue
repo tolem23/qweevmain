@@ -21,7 +21,7 @@
               <h2 v-if="item.title" class="text-2xl mb-2 font-semibold text-white">
                 {{ item.title }}
               </h2>
-              <p v-if="item.description" class="text-base">
+              <p v-if="item.description" class="text-base text-white ">
                 {{ item.description }}
               </p>
             </div>
@@ -101,7 +101,7 @@
   }
   .swiper-pagination .swiper-pagination-bullet {
     height: 3px;
-    @apply rounded-[1px] bg-[#6750A4] bg-opacity-100 w-[30px] md:w-[230px] ;
+    @apply rounded-[1px] bg-[#6750A4] bg-opacity-100 w-[100px] md:w-[260px] ;
     &.swiper-pagination-bullet-active {
       @apply bg-[#6750A4]  ;
     }

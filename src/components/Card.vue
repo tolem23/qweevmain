@@ -23,14 +23,14 @@
         </div>
     </div> -->
     <div >
-        <div class=" md:grid-cols-5 ml-0 m-3 grid max-w-lg p-6   rounded-lg shadow " :class="cardBg" >
-            <h5 class="mb-2 text-4xl p-3 font-bold w-20 tracking-tight h-20 border-[5px] rounded-full border-[#F4EFF4] bg-[#fff] text-center" :class="numberClass">{{ number}}</h5>
+        <div class=" md:grid-cols-5 text-[#1D192B] ml-0 m-3 grid max-w-md p-4 rounded-lg shadow " :class="cardBg" >
+            <h5 class="mb-2 text-3xl   p-3 font-bold w-16 tracking-tight h-16 border-[5px] rounded-full border-[#F4EFF4] bg-[#fff] text-center" :class="numberClass">{{ number}}</h5>
             <div class="col-span-4" :class="textColor">
-                <h1 :class="headerColor"
-                    class="text-4xl  font-bold tracking-wide">
+                <h5 :class="headerColor"
+                    class="text-3xl font-semibold tracking-wide" style="font-family: 'Domaine Display Narrow', sans-serif;">
                     {{ header }}
-                </h1>
-                <p  :class="textColor" class="font-semibold  text-base leading-6 mt-3 ">{{ text }}</p>
+                </h5>
+                <p  :class="textColor" class="font-normal  text-base leading-6 mt-3 ">{{ text }}</p>
 
             </div>
         </div>
