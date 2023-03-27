@@ -1,7 +1,6 @@
 <template>
     <div>
         <div
-    :class="HomeView"
         class="home">
     <Header class=""></Header>
     <Intro/>
