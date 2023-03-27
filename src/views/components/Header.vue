@@ -2,21 +2,24 @@
     <head>
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
     </head>
-  <div class="header pt-7 " :class="Header">
-    <div class="w-[80%] mx-auto ml-[10%] mr-[10%]  sticky z-20 top bg-white sm:py-8 py-4 rounded-lg sm:px-6 border flex justify-between ">
+  <div class="header pt-7 " >
+    <div class="w-[80%] mx-auto ml-[10%] mr-[10%]  sticky z-20 top bg-white sm:py-8  rounded-lg sm:px-6 border flex justify-between ">
         <div class="logo sm:pl-0 pl-[5%]">
             <img src="../../assets/img/qweev-logo 1.png">
         </div>
         <Button class="sm:hidden flex" msg="Get Started"/>
         <i id="burger"
-        @click="toggleSideBar" 
-         class="text-[20px] pr-[5%] text-bold items-center ri-menu-line sm:hidden flex text-[#6750A4]"></i>
+            @click="toggleSideBar" 
+            class="text-[20px] pr-[5%] text-bold items-center ri-menu-line sm:hidden flex text-[#6750A4]">
+        </i>
 
         <div id="navbar"
-        :class="{'flex':showSideBar, 'hidden md:flex':!showSideBar}" 
-         class="navbar sm:relative sm:bg-inherit bg-[#6750A4] sm:h-full h-[100vh] sm:flex sm:mt-0 mt-[9%] left-[400px] sm:left-0 fixed z-20 sm:translate-x-0 sm:mx-0 mx-auto sm:justify-end sm:w-full w-[250px] translate-x-[10%] sm:relative transition-all  duration-1000 ease-in-out delay-300">
+        :class="{'right-[0]':showSideBar}" 
+         class="navbar sm:relative sm:bg-inherit bg-[#6750A4] sm:h-full h-[100vh] sm:flex   right-[-250px] sm:right-0 fixed z-20 sm:translate-x-0 sm:mx-0 mx-auto sm:justify-end sm:w-full w-[250px] translate-x-[10%] transition-all  duration-1000 ease-in-out delay-300">
          
             <nav class="">
+                <i @click="toggleSideBar" class="ri-close-line text-[20px] font-bold pl-2 text-white sm:hidden flex"></i>
+               
                 <ul class="sm:text-black text-white sm:mt-0 mt-6 font-semibold  sm:flex items-center sm:gap-x-4 md:gap-x-8 ">
                     <li class="hover:bg-white py-1 sm:hover:bg-transparent flex hover:text-[#6750A4] transition sm:pr-0 pr-20 ease-in-out duration-300 delay-300  sm:hover:scale-110">
                         <i class="px-3 sm:hidden font-light flex ri-home-3-line" ></i>
@@ -53,7 +56,7 @@
 </template>
 
 <script>
- import { remove } from '@vue/shared';
+//  import { remove } from '@vue/shared';
 import Button from '../../components/Button.vue'
 export default {
     components:{Button},
