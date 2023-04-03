@@ -1,7 +1,7 @@
 <template>
   <div class="contact  sm:flex md:gap-20 sm:gap-10 " >
     <div class="pt-32 md:pt-48 sm:pl-20 bg-[#E8DEF8] md:w-[50%] ">
-        <img src="../../assets/img/undraw_doctors_p6aq 1.png">
+        <img src="../../assets/img/two-doctors.png">
     </div>
 
     
@@ -29,7 +29,7 @@
             </form>
             <p class="md:text-start text-base  py-6 font-normal text-[#625B71] ">
               By submitting this form, you consent to our 
-              <a href="http://" target="_blank" rel="noopener noreferrer" class="underline text-[#21005D] hover:text-[#6750A4] text-sm ">Terms and Conditions.</a>
+              <a href="" target="_blank" rel="noopener noreferrer" class="underline text-[#21005D] hover:text-[#6750A4] text-sm ">Terms and Conditions.</a>
             
           </p>
             
