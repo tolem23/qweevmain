@@ -5,7 +5,7 @@
   <div class="header pt-7 " >
     <div class="w-[80%] mx-auto ml-[10%] mr-[10%]  sticky z-20 top bg-white sm:py-8  rounded-lg sm:px-6 border flex justify-between ">
         <div class="logo sm:pl-0 pl-[5%]">
-            <img src="../../assets/img/qweev-logo 1.png">
+            <img src="../../assets/img/qweev-logo.png">
         </div>
         <Button class="sm:hidden flex" msg="Get Started"/>
         <i id="burger"
