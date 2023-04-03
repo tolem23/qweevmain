@@ -1,6 +1,6 @@
 <template>
-  <div class="contact md:h-screen sm:flex md:gap-20 sm:gap-10 " >
-    <div class="pt-32 sm:pl-20 bg-[#E8DEF8] md:w-[50%] ">
+  <div class="contact  sm:flex md:gap-20 sm:gap-10 " >
+    <div class="pt-32 md:pt-48 sm:pl-20 bg-[#E8DEF8] md:w-[50%] ">
         <img src="../../assets/img/undraw_doctors_p6aq 1.png">
     </div>
 
