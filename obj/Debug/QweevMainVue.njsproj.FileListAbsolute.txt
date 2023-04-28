@@ -1,0 +1,3 @@
+C:\Users\Admin\source\repos\tolem23\qweevmain\obj\Debug\QweevMainVue.njsproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\tolem23\qweevmain\obj\Debug\QweevMainVue.njsproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\tolem23\qweevmain\bin\Microsoft.NodejsTools.WebRole.dll

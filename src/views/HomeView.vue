@@ -9,7 +9,7 @@
         <AboutUs/>
     </div>
     <div class="md:w-[70%] mx-auto mt-5 mb-3 font-ubuntu">
-    <h2>An end-to-end platform to meet the <br> diverse needs of your market </h2>
+        <h2>An end-to-end platform where <br>  patients can access a variety of egg donors and surrogates that possibly fits their profile. </h2>
     </div>
     <div class="w-[80%] mx-auto mt-10 mb-20">
         <CarouselImage/>

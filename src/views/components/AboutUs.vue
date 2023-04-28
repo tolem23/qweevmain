@@ -5,18 +5,12 @@
     <div class=" sm:col-span-3 md:col-span-1 ">
         <h2 class=" md:text-start ">Who we are and what we stand for</h2>
         <p class="mt-[5%] text-start font-normal text-sm sm:text-base lg:text-lg ">
-            The state of the nation welfare rests solely on us as we 
-            acts as the intermediary between a donor and a patient. 
-            The purpose of the patient portal is to create a platform 
-            on the database where patients can access a variety of 
-            donors that possibly fits their profile for egg donation.
+            We offer a well-rounded support service to any ART related services including but not limited to Donor and Surrogate recruitment services, Database management for donors and surrogates, Patient services, Counselling and Consultancy.We provide individualized care and attention for every patient during their journey to parenthood.
+
             <br>
             <br>
-            The state of the nation welfare rests solely on us as we 
-            acts as the intermediary between a donor and a patient. 
-            The purpose of the patient portal is to create a platform 
-            on the database where patients can access a variety of 
-            donors that possibly fits their profile for egg donation.
+            Whether you are becoming a parent through surrogacy or with the help of one of our egg donors, we have developed a surrogacy program that provides you the security, we can also recommend legal servicesand matching process to successfully complete your journey as seamlessly as possible.
+
         </p>
         <Button buttonClass=" w-full md:w-[100%] sm:w-[50%] py-3 mx-auto mt-[10%]"/>
     </div>

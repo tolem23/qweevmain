@@ -1,6 +1,6 @@
 <template>
-    <div :class="Intro" class="mt-[20%] md:mt-[10%] w-[80%] mx-auto  text-white ">
-        <h1 class="">The trusted platform <br class="hidden sm:flex">for perfect match</h1>
+    <div :class="Intro" class="mt-[20%] mr-[15%] md:mt-[15%] w-[75%] mx-auto  text-white ">
+        <h1 class="" >Your miracle within reach!  <br class="hidden sm:flex">It all starts here! </h1>
         <p class="mt-[5%] sm:w-[50%] lg:w-[45%] sm:text-xl text-white">
             Qweev’s clinically-sound, inclusive platform supports members 
             with personalized, holistic care for every step of their reproductive 
