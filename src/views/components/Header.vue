@@ -1,7 +1,5 @@
 <template>
-    <head>
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
-    </head>
+   
   <div class="header pt-7 " >
     <div class="w-[80%] mx-auto ml-[10%] mr-[10%]  sticky z-20 top bg-white sm:py-8  rounded-lg sm:px-6 border flex justify-between ">
         <div class="logo sm:pl-0 pl-[5%]">
