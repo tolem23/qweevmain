@@ -63,9 +63,9 @@ export default {
 
 <style scoped>
  .home {
-    background-image: url(../assets/img/expectantwoman.png);
+    background-image: url(../assets/img/couplechild.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 80% 50%;
  }
 </style>
