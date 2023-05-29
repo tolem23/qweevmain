@@ -34,10 +34,10 @@ props:{
         type:String,
         default:"#20,000"
     },
-    //  cardList: {
-    //     type: Array,
-    //     default:this.lists
-    //   },
+   //  cardlist: {
+     //    type: Array,
+      //   default:this.lists
+     //  },
    
 },
  data() {

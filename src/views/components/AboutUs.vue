@@ -1,7 +1,7 @@
 <template>
   <div class="mb-20" :class="AboutUs">
   <div class=" md:w-[80%] lg:mt-[10%] w-[80%] sm:w-[95%] mx-auto mt-[5%] mx-auto grid md:grid-cols-2 sm:grid-cols-5 md:gap-48 gap-10">
-    <img src="../../assets/img/family.png" class=" sm:min-h-md  md:min-h-lg sm:col-span-2 md:col-span-1">
+    <img src="../../assets/img/whoweare.png" class=" sm:min-h-md  md:min-h-lg sm:col-span-2 md:col-span-1">
     <div class=" sm:col-span-3 md:col-span-1 ">
         <h2 class=" md:text-start ">Who we are and what we stand for</h2>
         <p class="mt-[5%] text-start font-normal text-sm sm:text-base lg:text-lg ">

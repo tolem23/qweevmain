@@ -12,9 +12,9 @@
 
 <script>
   import Carousel from "@/components/Carousel.vue";
-  import couple2 from "@/assets/img/couple2.png";
-  import donor from "@/assets/img/donor.png";
-  import couple from "@/assets/img/couple.png";
+  import couple2 from "@/assets/img/eggdonors.png";
+  import couple from "@/assets/img/surrogate.jpg";
+  import donor from "@/assets/img/spermdonors.png";
   
   
   export default {
