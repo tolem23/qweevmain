@@ -11,7 +11,7 @@
         </div>
         <!-- List -->
           <ul role="list" class="space-y-7   my-7 " >
-            <li class="flex space-x-3" v-for="item in lists" :key="item">
+            <li class="flex space-x-3" v-for="item in cardlist" :key="item">
                 <!-- Icon -->
                 <svg  class="flex-shrink-0 " xmlns="http://www.w3.org/2000/svg"  fill="currentColor" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M4 3h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm7.003 13l7.07-7.071-1.414-1.414-5.656 5.657-2.829-2.829-1.414 1.414L11.003 16z"/></svg>
                 <span class="text-lg font-normal leading-tight ">{{item.list}}</span>
@@ -34,10 +34,10 @@ props:{
         type:String,
         default:"#20,000"
     },
-   //  cardlist: {
-     //    type: Array,
-      //   default:this.lists
-     //  },
+   cardlist: {
+         type: Array
+        
+       },
    
 },
  data() {

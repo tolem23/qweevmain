@@ -5,7 +5,7 @@
     <Header class=""></Header>
     <Intro/>
     </div>
-    <div>
+    <div id="about">
         <AboutUs/>
     </div>
     <div class="md:w-[70%] mx-auto mt-5 mb-3 font-ubuntu ">
@@ -14,24 +14,24 @@
     <div class="w-[80%] mx-auto mt-10 mb-20">
         <CarouselImage/>
     </div>
-    <div clss="pt-32">
+    <div clss="pt-32" id="works">
         <h2>How it Works</h2>
         <p class="font-normal text-base lg:text-lg text-center">We understand how it is to navigate around here.<br> Let’s show your how it works in 4 easy steps.</p>
     </div>
-    <div class="mt-20">
+    <div class="mt-20"  id="">
         <Works/>
     </div>
     <div  class="pt-10 clear-left mb-20">
         <h2 class="">Our Pricing Plan</h2>
         <p class="font-normal text-center text-base lg:text-lg">Our pricing plan covers for level of access to our platform</p>
     </div>
-    <div class=" mb-20">
+    <div id="pricing" class=" mb-20">
         <Pricing/>
     </div>
-    <div>
+    <div id="services">
         <Services/>
     </div>
-    <div class="">
+    <div class="" id="contact">
         <ContactUs/>
     </div>
     <div class="mt-auto">

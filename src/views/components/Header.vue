@@ -43,7 +43,7 @@
                     </li>
                     <li class="flex  hover:bg-white py-1 sm:hover:bg-transparent hover:text-[#6750A4] transition ease-in-out duration-300 delay-300  sm:hover:scale-110">
                         <i class="px-3 sm:hidden font-light flex ri-phone-line"></i>
-                        <a href="">Contact Us</a>
+                        <a href="#contact">Contact Us</a>
                     </li>
                     <Button class="md:flex hidden" msg="Get Started"/>
                 </ul>

@@ -1,5 +1,5 @@
 <template>
-    <swiper
+    <swiper speed="1500" grabCursor="true"
       :modules="modules"
       :slides-per-view="sliderPreview"
       :space-between="space"
