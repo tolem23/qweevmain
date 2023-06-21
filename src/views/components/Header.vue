@@ -45,7 +45,7 @@
                         <i class="px-3 sm:hidden font-light flex ri-phone-line"></i>
                         <a href="#contact">Contact Us</a>
                     </li>
-                    <Button class="md:flex hidden" msg="Get Started"/>
+                    <Button class="md:flex hidden" @click="load()" msg="Get Started"/>
                 </ul>
             </nav>
         </div>
@@ -67,7 +67,11 @@ export default {
         toggleSideBar(){
           console.log("y")
           this.showSideBar = !this.showSideBar
-        }
+        },
+        async load() {
+
+            window.open('https://app.qweev.com/portal/signup');
+        },
       }
  
 }

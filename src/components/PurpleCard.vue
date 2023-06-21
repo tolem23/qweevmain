@@ -18,7 +18,7 @@
             </li>
             
           </ul>
-        <button type="button" class="text-white hover:text-[#6750A4] mt-3 bg-[#6750A4] hover:bg-white focus:ring-4 focus:outline-none  font-medium rounded-lg text-base px-5 py-5 inline-flex justify-center w-full text-center">Get Started Now</button>
+        <button type="button" @click="load()"  class="text-white hover:text-[#6750A4] mt-3 bg-[#6750A4] hover:bg-white focus:ring-4 focus:outline-none  font-medium rounded-lg text-base px-5 py-5 inline-flex justify-center w-full text-center">Get Started Now</button>
     </div>
 
 </template>
@@ -56,7 +56,16 @@ props:{
   
         
       };
-    },
+        },
+        methods: {
+
+           
+            async load() {
+
+                window.open('https://app.qweev.com/portal/signup');
+            },
+
+        },
 }
 </script>
 
